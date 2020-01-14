@@ -10,4 +10,11 @@ if(chip.yy<=pageY)
 {chip.yy=pageY;chip.vy=vmin+vmax*Math.random()}
 if(chip.yy>=pageY+pageH-chip.h)
 {chip.yy=pageY+pageH-chip.h;chip.vy=-vmin-vmax*Math.random()}
-document.getElementById(chip.named).style.left=chip.xx+"px";document.getElementById(chip.named).style.top=chip.yy+"px";chip.timer1=setTimeout("movechip('"+chip.named+"')",100)}}
+document.getElementById(chip.named).style.left=chip.xx+"px";document.getElementById(chip.named).style.top=chip.yy+"px";chip.timer1=setTimeout("movechip('"+chip.named+"')",100)}} var flyimage1,flyimage2,flyimage3
+function pagestart(){flyimage1=new Chip("flyimage1",48,48);flyimage2=new Chip("flyimage2",48,48);flyimage3=new Chip("flyimage3",48,48);movechip("flyimage1");movechip("flyimage2");movechip("flyimage3")}
+if(window.addEventListener)
+window.addEventListener("load",pagestart,!1)
+else if(window.attachEvent)
+window.attachEvent("onload",pagestart)
+else if(document.getElementById)
+window.onload=pagestart
