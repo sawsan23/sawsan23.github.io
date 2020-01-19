@@ -1,0 +1,33 @@
+@font-face{font-family:NotoSansMyanmar-Regular-ZawDecode;font-style:normal;font-weight:400;src:local('NotoSansMyanmar-Regular-ZawDecode'),local('NotoSansMyanmar-Regular-ZawDecode'),url(/fonts/NotoSansMyanmar-Regular-ZawDecode.woff2) format('woff2');unicode-range:U+1000-109F}
+
+@font-face{font-family:NotoSansMyanmar-Bold-ZawDecode;font-style:normal;font-weight:400;src:local('NotoSansMyanmar-Bold-ZawDecode'),local('NotoSansMyanmar-Bold-ZawDecode'),url(/fonts/NotoSansMyanmar-Bold-ZawDecode.woff2) format('woff2');unicode-range:U+1000-109F}
+
+
+
+
+@font-face{font-family:NotoSansMyanmarUI-Regular-ZawDecode;font-style:normal;font-weight:400;src:local('NotoSansMyanmarUI-Regular-ZawDecode'),local('NotoSansMyanmarUI-Regular-ZawDecode'),url(/fonts/NotoSansMyanmarUI-Regular-ZawDecode.woff2) format('woff2');unicode-range:U+1000-109F}
+
+@font-face{font-family:NotoSansMyanmarUI-Bold-ZawDecode;font-style:normal;font-weight:400;src:local('NotoSansMyanmarUI-Bold-ZawDecode'),local('NotoSansMyanmarUI-Bold-ZawDecode'),url(/fonts/NotoSansMyanmarUI-Bold-ZawDecode.woff2) format('woff2');unicode-range:U+1000-109F}
+
+
+
+@font-face{font-family:NotoSerifMyanmar-Regular;font-style:normal;font-weight:400;src:local('NotoSerifMyanmar-Regular'),local('NotoSerifMyanmar-Regular'),url(/fonts/NotoSerifMyanmar-Regular.woff2) format('woff2');unicode-range:U+1000-109F}
+
+@font-face{font-family:NotoSerifMyanmar-Bold;font-style:normal;font-weight:400;src:local('NotoSerifMyanmar-Bold'),local('NotoSerifMyanmar-Bold'),url(/fonts/NotoSerifMyanmar-Bold.woff2) format('woff2');unicode-range:U+1000-109F}
+
+
+.NotoSansMyanmar-Regular-ZawDecode { font-family: "NotoSansMyanmar-Regular-ZawDecode"; font-size: 16px;
+
+.NotoSansMyanmar-Bold-ZawDecode { font-family: "NotoSansMyanmar-Bold-ZawDecode"; font-size: 16px;
+
+
+
+.NotoSansMyanmarUI-Regular-ZawDecode { font-family: "NotoSansMyanmarUI-Regular-ZawDecode"; font-size: 16px;
+
+.NotoSansMyanmarUI-Bold-ZawDecode { font-family: "NotoSansMyanmarUI-Bold-ZawDecode"; font-size: 16px;
+
+
+
+.NotoSerifMyanmar-Bold { font-family: "NotoSerifMyanmar-Bold"; font-size: 16px;
+
+.NotoSerifMyanmar-Regular { font-family: "NotoSerifMyanmar-Regular"; font-size: 16px;
